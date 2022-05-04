@@ -1,6 +1,6 @@
 """
 ZKP: GC Authenticator (Client)
-Author's: Gene Newell, Justin Bowser, Zion Lowe, Dr. Carr
+Author's: Gene Newell
 """
 
 import socket, pickle ,random, time
