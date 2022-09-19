@@ -16,6 +16,7 @@
 		E0B0F56E28D258E6004E1220 /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B0F56D28D258E6004E1220 /* RecipeModel.swift */; };
 		E0B0F57028D25B98004E1220 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B0F56F28D25B98004E1220 /* DataService.swift */; };
 		E0B0F57228D26E38004E1220 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B0F57128D26E38004E1220 /* RecipeDetailView.swift */; };
+		E0B0F57428D8D636004E1220 /* RecipeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B0F57328D8D636004E1220 /* RecipeTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		E0B0F56D28D258E6004E1220 /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
 		E0B0F56F28D25B98004E1220 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		E0B0F57128D26E38004E1220 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
+		E0B0F57328D8D636004E1220 /* RecipeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 		E0B0F56428D253A2004E1220 /* Views(UI Screens) */ = {
 			isa = PBXGroup;
 			children = (
+				E0B0F57328D8D636004E1220 /* RecipeTabView.swift */,
 				E0B0F55828D25081004E1220 /* RecipeListView.swift */,
 				E0B0F57128D26E38004E1220 /* RecipeDetailView.swift */,
 			);
@@ -199,6 +202,7 @@
 				E0B0F55928D25081004E1220 /* RecipeListView.swift in Sources */,
 				E0B0F55728D25081004E1220 /* Recipe_List_App.swift in Sources */,
 				E0B0F57028D25B98004E1220 /* DataService.swift in Sources */,
+				E0B0F57428D8D636004E1220 /* RecipeTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
