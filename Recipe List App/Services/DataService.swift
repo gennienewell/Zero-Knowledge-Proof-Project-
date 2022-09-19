@@ -7,7 +7,7 @@
 
 import Foundation
 
-
+// This ObjectRetrieves JSON Data from file, Decodes and returns Recipes as an array of Recipe objects.
 class DataService{
     
     func getLocalData()-> [Recipe] {
@@ -32,12 +32,16 @@ class DataService{
                 
             let recipeData = try decoder.decode([Recipe].self,from:data)
                 
-            //Add the unique IDs
+            //Add the unique IDs for identification.
             for r in recipeData {
                     r.id = UUID()
+                // add unique ids for recipes
+                for i in r.ingredients{
+                    i.id = UUID()
+                }
             }
 
-            //Return the recipes
+            //Return the recipes as array
             return recipeData
                 
             }

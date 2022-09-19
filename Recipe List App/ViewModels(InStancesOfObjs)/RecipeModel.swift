@@ -12,8 +12,9 @@ class RecipeModel: ObservableObject{
     @Published var recipes = [Recipe]()
     
     init(){
-        //Create data service obj and retreive data
+        //Create data service obj and retreives data
         let service = DataService()
+        //Stores recipe objects in Array
         self.recipes =  service.getLocalData()
     }
     
