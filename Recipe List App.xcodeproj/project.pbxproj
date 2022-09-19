@@ -18,6 +18,7 @@
 		E0B0F57228D26E38004E1220 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B0F57128D26E38004E1220 /* RecipeDetailView.swift */; };
 		E0B0F57428D8D636004E1220 /* RecipeTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B0F57328D8D636004E1220 /* RecipeTabView.swift */; };
 		E0B0F57628D8E6F1004E1220 /* recipes.json in Resources */ = {isa = PBXBuildFile; fileRef = E0B0F57528D8E6F1004E1220 /* recipes.json */; };
+		E0B0F57828D8EB7B004E1220 /* RecipeFeatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0B0F57728D8EB7B004E1220 /* RecipeFeatureView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		E0B0F57128D26E38004E1220 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
 		E0B0F57328D8D636004E1220 /* RecipeTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTabView.swift; sourceTree = "<group>"; };
 		E0B0F57528D8E6F1004E1220 /* recipes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = recipes.json; sourceTree = "<group>"; };
+		E0B0F57728D8EB7B004E1220 /* RecipeFeatureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeFeatureView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				E0B0F57328D8D636004E1220 /* RecipeTabView.swift */,
+				E0B0F57728D8EB7B004E1220 /* RecipeFeatureView.swift */,
 				E0B0F55828D25081004E1220 /* RecipeListView.swift */,
 				E0B0F57128D26E38004E1220 /* RecipeDetailView.swift */,
 			);
@@ -201,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0B0F56C28D256D0004E1220 /* Recipe.swift in Sources */,
+				E0B0F57828D8EB7B004E1220 /* RecipeFeatureView.swift in Sources */,
 				E0B0F57228D26E38004E1220 /* RecipeDetailView.swift in Sources */,
 				E0B0F56E28D258E6004E1220 /* RecipeModel.swift in Sources */,
 				E0B0F55928D25081004E1220 /* RecipeListView.swift in Sources */,
